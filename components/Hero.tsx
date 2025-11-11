@@ -26,7 +26,7 @@ export default function Hero({
   backgroundImage,
   backgroundVideo,
   title = "Bati France, tous les métiers pour vos projets",
-  description = "Des prestations de qualité pour tous vos projets de construction et rénovation. Plus de 5 ans d'expérience, spécialisés dans tous les corps d'état, qualité et respect des délais garantis.",
+  description = "Des prestations de qualité pour tous vos projets de construction et rénovation dans votre secteur. Plus de 5 ans d'expérience, spécialisés dans tous les corps d'état, qualité et respect des délais garantis.",
   bulletPoints = [
     "Plus de 5 ans d'expérience",
     "Spécialisés dans tous les corps d'état",
