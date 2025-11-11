@@ -7,19 +7,19 @@ export function generateSectorMetadata(
   keywords: string[]
 ): Metadata {
   return {
-    title: `Rénovation ${location} – Bati France`,
+    title: `Maçonnerie ${location} – Adbetton Maçonnerie | Devis Gratuit`,
     description: description,
     keywords: keywords.join(', '),
     openGraph: {
-      title: `Rénovation ${location} – Bati France`,
+      title: `Maçonnerie ${location} – Adbetton Maçonnerie`,
       description: description,
       type: 'website',
       locale: 'fr_FR',
-      siteName: 'Bati France',
+      siteName: 'Adbetton Maçonnerie - Savoir-faire familial',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Rénovation ${location} – Bati France`,
+      title: `Maçonnerie ${location} – Adbetton Maçonnerie`,
       description: description,
     },
     robots: {
