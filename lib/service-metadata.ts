@@ -8,16 +8,16 @@ export function generateServiceMetadata(
   description: string,
   keywords: string[]
 ): Metadata {
-  const title = `${serviceName} ${location} - Bati France | Devis Gratuit`;
-  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez Bati France.`;
+  const title = `${serviceName} ${location} - Adbetton Maçonnerie | Devis Gratuit`;
+  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez Adbetton Maçonnerie.`;
 
   return {
     title,
     description: metaDescription,
-    keywords: [...keywords, 'devis gratuit', 'Bati France', location].join(', '),
-    authors: [{ name: 'Bati France' }],
-    creator: 'Bati France',
-    publisher: 'Bati France',
+    keywords: [...keywords, 'devis gratuit', 'Adbetton Maçonnerie', location].join(', '),
+    authors: [{ name: 'Adbetton Maçonnerie' }],
+    creator: 'Adbetton Maçonnerie',
+    publisher: 'Adbetton Maçonnerie',
     formatDetection: {
       email: false,
       address: false,

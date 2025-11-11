@@ -25,7 +25,7 @@ export default function HomeClient() {
       title: "Maçonnerie Générale",
       subtitle: "Construction neuve et extension",
       content: "Réalisation de fondations, dalles béton, murs porteurs, cloisons, escaliers en béton. Construction neuve et extension de maison avec garantie décennale.",
-      image: "/image-client/peinture.png",
+      image: "/macon.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
       href: "/services/maconnerie-generale"
@@ -34,7 +34,7 @@ export default function HomeClient() {
       title: "Joints de Pierres",
       subtitle: "Technique traditionnelle à l'ancienne",
       content: "Pose de pierres naturelles et réalisation de joints de pierres à l'ancienne. Spécialisation en rénovation de bâtiments anciens avec respect des techniques traditionnelles.",
-      image: "/image-client/plomberie1.png",
+      image: "/joint-de-pierre.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
       href: "/services/joints-pierres"
@@ -43,7 +43,7 @@ export default function HomeClient() {
       title: "Ouvertures & Extensions",
       subtitle: "Création et agrandissement",
       content: "Création d'ouvertures dans murs porteurs, extensions de maison. Nous adaptons votre habitat à vos besoins avec expertise technique.",
-      image: "/image-client/renovation.png",
+      image: "/extension.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
       href: "/services/ouvertures-extensions"
@@ -52,22 +52,28 @@ export default function HomeClient() {
       title: "Enduits de Façade",
       subtitle: "Finitions extérieures",
       content: "Application d'enduits de façade, finitions extérieures. Nous protégeons et embellissons vos murs avec des matériaux de qualité.",
+      image: "/facade.png",
       gradientFrom: "#e74c3c",
-      gradientTo: "#f39c12"
+      gradientTo: "#f39c12",
+      href: "/services/enduits-facade"
     },
     {
       title: "Assainissement",
       subtitle: "Drainage et évacuation",
       content: "Assainissement, drainage, murs de soutènement. Solutions complètes pour la gestion des eaux et la stabilité de vos constructions.",
+      image: "/assainissement.png",
       gradientFrom: "#3498db",
-      gradientTo: "#2980b9"
+      gradientTo: "#2980b9",
+      href: "/services/assainissement"
     },
     {
       title: "Terrassement",
       subtitle: "Petits travaux de terrassement",
       content: "Petits travaux de terrassement et finitions extérieures. Préparation de terrain et aménagements pour vos projets de construction.",
+      image: "/terrassementee.png",
       gradientFrom: "#9b59b6",
-      gradientTo: "#8e44ad"
+      gradientTo: "#8e44ad",
+      href: "/services/terrassement"
     }
   ];
 
