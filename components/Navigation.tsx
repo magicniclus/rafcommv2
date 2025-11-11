@@ -46,8 +46,8 @@ export default function Navigation() {
     { name: 'Saint-Suliac', href: '/secteur/maconnerie-saint-suliac' },
     { name: 'Saint-Briac-sur-Mer', href: '/secteur/maconnerie-saint-briac-sur-mer' },
     { name: 'Saint-Lunaire', href: '/secteur/maconnerie-saint-lunaire' },
-    { name: 'La Richardais', href: '/secteur/maconnerie-la-richardais' },
     { name: 'Combourg', href: '/secteur/maconnerie-combourg' },
+    { name: 'Lancieux', href: '/secteur/maconnerie-lancieux' },
     { name: 'Voir tous nos secteurs', href: '/secteur' },
   ];
 
