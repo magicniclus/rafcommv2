@@ -21,27 +21,28 @@ export default function Navigation() {
   const [showSectorsDropdown, setShowSectorsDropdown] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "+33 6 59 69 94 15";
+  const phoneNumber = "06 48 81 25 78";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Peinture et Ravalement', href: '/services/peinture-ravalement' },
-    { name: 'Électricité et Plomberie', href: '/services/electricite-plomberie' },
-    { name: 'Rénovation globale', href: '/services/renovation-globale' },
-    { name: 'Cloisons sèches', href: '/services/cloisons-seches' },
-    { name: 'Finitions plâtrerie', href: '/services/finitions-platrerie' },
+    { name: 'Maçonnerie Générale', href: '/services/maconnerie-generale' },
+    { name: 'Joints de Pierres', href: '/services/joints-pierres' },
+    { name: 'Ouvertures & Extensions', href: '/services/ouvertures-extensions' },
+    { name: 'Enduits de Façade', href: '/services/enduits-facade' },
+    { name: 'Assainissement', href: '/services/assainissement' },
+    { name: 'Terrassement', href: '/services/terrassement' },
   ];
 
   // Liste des secteurs pour le dropdown
   const sectorsLinks = [
-    { name: 'Paris 20ᵉ', href: '/secteur/renovation-paris-20e' },
-    { name: 'Montreuil', href: '/secteur/renovation-montreuil' },
-    { name: 'Vincennes', href: '/secteur/renovation-vincennes' },
-    { name: 'Bagnolet', href: '/secteur/renovation-bagnolet' },
-    { name: 'Saint-Mandé', href: '/secteur/renovation-saint-mande' },
+    { name: 'Saint-Malo', href: '/secteur/maconnerie-saint-malo' },
+    { name: 'Dinard', href: '/secteur/maconnerie-dinard' },
+    { name: 'Dinan', href: '/secteur/maconnerie-dinan' },
+    { name: 'Cancale', href: '/secteur/maconnerie-cancale' },
+    { name: 'Dol-de-Bretagne', href: '/secteur/maconnerie-dol-de-bretagne' },
     { name: 'Voir tous nos secteurs', href: '/secteur' },
   ];
 
@@ -120,8 +121,8 @@ export default function Navigation() {
                 />
               </motion.div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-gray-900">BATI FRANCE</span>
-                <span className="text-xs text-gray-600 font-medium">spécialistes en rénovation</span>
+                <span className="text-xl font-bold text-gray-900">ADBETTON</span>
+                <span className="text-xs text-gray-600 font-medium">maçonnerie familiale</span>
               </div>
             </Link>
           </motion.div>
@@ -349,10 +350,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    BATI FRANCE
+                    ADBETTON
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    spécialistes en rénovation
+                    maçonnerie familiale
                   </span>
                 </div>
               </div>

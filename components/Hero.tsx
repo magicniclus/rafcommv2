@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "Bati France, tous les métiers pour vos projets",
-  description = "Des prestations de qualité pour tous vos projets de construction et rénovation dans votre secteur. Plus de 5 ans d'expérience, spécialisés dans tous les corps d'état, qualité et respect des délais garantis.",
+  title = "Adbetton Maçonnerie - Savoir-faire familial depuis 2 générations",
+  description = "Maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement. Un travail soigné, durable et de qualité dans un rayon de 50 km autour de Saint-Malo.",
   bulletPoints = [
-    "Plus de 5 ans d'expérience",
-    "Spécialisés dans tous les corps d'état",
-    "Qualité et respect des délais garantis"
+    "Entrepreneur du bâtiment avec garantie décennale",
+    "Équipe de 2 professionnels expérimentés",
+    "Intervention en Bretagne et Normandie"
   ],
   googleReviewsWidget
 }: HeroProps) {

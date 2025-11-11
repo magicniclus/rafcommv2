@@ -22,39 +22,60 @@ export default function HomeClient() {
   
   const servicesData = [
     {
-      title: "Peinture et Ravalement",
-      subtitle: "Intérieur & Extérieur",
-      content: "Spécialisés en peinture générale et ravalement, nous transformons vos espaces avec soin.",
+      title: "Maçonnerie Générale",
+      subtitle: "Construction neuve et extension",
+      content: "Réalisation de fondations, dalles béton, murs porteurs, cloisons, escaliers en béton. Construction neuve et extension de maison avec garantie décennale.",
       image: "/image-client/peinture.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/peinture-ravalement"
+      href: "/services/maconnerie-generale"
     },
     {
-      title: "Électricité et Plomberie",
-      subtitle: "Installation & Rénovation",
-      content: "Nos experts en électricité et plomberie assurent des installations fiables et conformes aux normes.",
+      title: "Joints de Pierres",
+      subtitle: "Technique traditionnelle à l'ancienne",
+      content: "Pose de pierres naturelles et réalisation de joints de pierres à l'ancienne. Spécialisation en rénovation de bâtiments anciens avec respect des techniques traditionnelles.",
       image: "/image-client/plomberie1.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/electricite-plomberie"
+      href: "/services/joints-pierres"
     },
     {
-      title: "Rénovation globale",
-      subtitle: "Transformations et Nettoyage",
-      content: "Transformations complètes et nettoyage professionnel pour donner une nouvelle vie à vos espaces.",
+      title: "Ouvertures & Extensions",
+      subtitle: "Création et agrandissement",
+      content: "Création d'ouvertures dans murs porteurs, extensions de maison. Nous adaptons votre habitat à vos besoins avec expertise technique.",
       image: "/image-client/renovation.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/renovation-globale"
+      href: "/services/ouvertures-extensions"
+    },
+    {
+      title: "Enduits de Façade",
+      subtitle: "Finitions extérieures",
+      content: "Application d'enduits de façade, finitions extérieures. Nous protégeons et embellissons vos murs avec des matériaux de qualité.",
+      gradientFrom: "#e74c3c",
+      gradientTo: "#f39c12"
+    },
+    {
+      title: "Assainissement",
+      subtitle: "Drainage et évacuation",
+      content: "Assainissement, drainage, murs de soutènement. Solutions complètes pour la gestion des eaux et la stabilité de vos constructions.",
+      gradientFrom: "#3498db",
+      gradientTo: "#2980b9"
+    },
+    {
+      title: "Terrassement",
+      subtitle: "Petits travaux de terrassement",
+      content: "Petits travaux de terrassement et finitions extérieures. Préparation de terrain et aménagements pour vos projets de construction.",
+      gradientFrom: "#9b59b6",
+      gradientTo: "#8e44ad"
     }
   ];
 
   const contactInfo = {
-    address: "17 avenue Gambetta, Paris 75020",
-    phone: "+33 6 59 69 94 15",
-    email: "batifrance@outlook.fr",
-    mapEmbedUrl: "https://maps.google.com/maps?q=17+avenue+Gambetta,+Paris+75020&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    address: "8 avenue de moka, 35400 Saint-Malo",
+    phone: "06 48 81 25 78",
+    email: "adbetton32@gmail.com",
+    mapEmbedUrl: "https://maps.google.com/maps?q=8+avenue+de+moka,+35400+Saint-Malo&t=&z=15&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -105,7 +126,7 @@ export default function HomeClient() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Venez nous rencontrer dans nos bureaux"
+        subtitle="Parlons de votre projet de maçonnerie générale, joints de pierres, extensions ou assainissement autour de Saint-Malo"
         contactInfo={contactInfo} 
       />
 

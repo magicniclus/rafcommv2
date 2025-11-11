@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "BATI FRANCE",
-    "legalName": "Bati France - Spécialistes en Rénovation",
-    "address": "17 avenue Gambetta, Paris 75020",
-    "phone": "+33 6 59 69 94 15",
-    "email": "batifrance@outlook.fr",
-    "siret": "Entrepreneur du bâtiment",
-    "ceo": "Équipe Bati France"
+    "name": "ADBETTON",
+    "legalName": "Adbetton Maçonnerie - Savoir-faire familial depuis 2 générations",
+    "address": "8 avenue de moka, 35400 Saint-Malo",
+    "phone": "06 48 81 25 78",
+    "email": "adbetton32@gmail.com",
+    "siret": "Entrepreneur du bâtiment avec garantie décennale",
+    "ceo": "Morgan Bourges"
   },
   "hero": {
-    "title": "Bati France, tous les métiers pour vos projets",
-    "subtitle": "Des prestations de qualité pour tous vos projets de construction et rénovation. Plus de 5 ans d'expérience, spécialisés dans tous les corps d'état, qualité et respect des délais garantis.",
+    "title": "Adbetton Maçonnerie - Savoir-faire familial depuis 2 générations",
+    "subtitle": "Maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement. Un travail soigné, durable et de qualité dans un rayon de 50 km autour de Saint-Malo.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Bati France - Votre partenaire rénovation",
-        "subtitle": "Nous sommes spécialisés dans tous les corps d'état",
-        "content": "Nous sommes spécialisés dans tous les corps d'état, garantissant qualité et respect des délais pour vos projets de construction et rénovation. Avec plus de 5 ans d'expérience, notre équipe réalise des chantiers variés, du sinistre à la transformation complète d'appartements.",
+        "title": "Savoir-faire familial transmis de père en fils",
+        "subtitle": "Plus de 10 ans d'expérience sur le terrain",
+        "content": "Notre entreprise, Adbetton Maçonnerie, est née d'une véritable passion transmise de père en fils. Forts d'un savoir-faire familial et d'une expérience solide sur le terrain, nous mettons notre expertise au service de vos projets, qu'ils soient petits ou grands. Notre mission : apporter un travail soigné, durable et de qualité, dans le respect des délais et des normes.",
         "image": "/image-client/about1.avif",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -31,14 +31,14 @@
         "reversed": false
       },
       {
-        "smallTitle": "Notre localisation",
-        "title": "Notre Localisation",
-        "subtitle": "17 avenue Gambetta, Paris 75020",
-        "content": "Bati France est situé au 17 avenue Gambetta, Paris 75020, offrant des services de rénovation de qualité dans toute la région. Nous sommes spécialisés dans tous les métiers pour vos projets. Horaires : Lundi à Samedi.",
+        "smallTitle": "Nos spécialités",
+        "title": "Maçonnerie traditionnelle et moderne",
+        "subtitle": "Spécialisation en rénovation de pierre et joints à l'ancienne",
+        "content": "Ce qui nous distingue, c'est notre amour du métier, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que la maçonnerie traditionnelle peut rimer avec modernité et précision. Nous maîtrisons parfaitement les normes de sécurité et de construction en vigueur.",
         "image": "/image-client/about2.avif",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
-        "buttonText": "Nous contacter",
+        "buttonText": "Contactez-nous",
         "buttonHref": "#contact",
         "reversed": true
       }
@@ -46,7 +46,7 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos travaux de qualité dans divers domaines du bâtiment pour tous vos projets",
+    "subtitle": "Découvrez nos chantiers de maçonnerie générale et joints de pierres dans un rayon de 50 km autour de Saint-Malo",
     "initialDisplayCount": 4,
     "images": [
       {
@@ -145,14 +145,14 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Parlons de votre projet ensemble"
+    "subtitle": "Parlons de votre projet de maçonnerie générale, joints de pierres, extensions ou assainissement autour de Saint-Malo"
   },
   "team": {
     "members": [
       {
-        "name": "Équipe Bati France",
-        "position": "Spécialistes en Rénovation",
-        "description": "Avec plus de 5 ans d'expérience, notre équipe réalise des chantiers variés, du sinistre à la transformation complète d'appartements. Nous sommes spécialisés dans tous les corps d'état, garantissant qualité et respect des délais pour vos projets de construction et rénovation. Avec plus de 5 ans d'expérience, notre équipe réalise des chantiers variés.",
+        "name": "Morgan Bourges",
+        "position": "Fondateur & Artisan Maçon",
+        "description": "Issu d'une famille de maçons, j'ai grandi sur les chantiers, entouré par la passion du bâtiment et le respect du travail bien fait. Après plusieurs années d'expérience dans différents domaines du gros œuvre et de la rénovation, j'ai créé Adbetton en 2020 pour faire perdurer le savoir-faire familial tout en y apportant ma touche personnelle : la qualité, la fiabilité et la proximité avec mes clients.",
         "photo": "/image-client/client.jpg"
       }
     ]

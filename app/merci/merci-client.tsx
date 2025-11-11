@@ -56,7 +56,7 @@ export default function MerciClient() {
               Nous avons bien reçu votre demande
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Notre équipe Bati France va étudier votre projet et vous recontacter 
+              Notre équipe Adbetton Maçonnerie va étudier votre projet et vous recontacter 
               dans les plus brefs délais pour établir un devis personnalisé et gratuit.
             </p>
           </motion.div>
@@ -108,9 +108,9 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="tel:+33659699415" className="flex items-center justify-center">
+                <a href="tel:0648812578" className="flex items-center justify-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  +33 6 59 69 94 15
+                  06 48 81 25 78
                 </a>
               </Button>
               <Button
@@ -118,7 +118,7 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="mailto:batifrance@outlook.fr" className="flex items-center justify-center">
+                <a href="mailto:adbetton32@gmail.com" className="flex items-center justify-center">
                   <Mail className="h-4 w-4 mr-2" />
                   Email
                 </a>
@@ -148,7 +148,7 @@ export default function MerciClient() {
               className="flex-1"
               asChild
             >
-              <Link href="/services/peinture-ravalement">
+              <Link href="/services/maconnerie-generale">
                 Découvrir nos services
               </Link>
             </Button>
