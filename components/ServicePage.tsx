@@ -128,7 +128,7 @@ export default function ServicePage({
     "description": description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Bati France",
+      "name": "RAFCOM",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {
