@@ -20,6 +20,46 @@ const travauxFibreConfig = {
   // Description détaillée
   mainDescription: "RAFCOM est votre spécialiste des travaux fibre optique en Île-de-France. Nous intervenons pour l'installation, la maintenance et la réparation de réseaux fibre optique pour particuliers et professionnels. Notre expertise technique nous permet de réaliser tous types de travaux fibre, des installations simples aux projets les plus complexes. Nous garantissons un service professionnel, rapide et de qualité avec un devis gratuit et personnalisé pour chaque intervention.",
   
+  // Structure SEO optimisée
+  problemSection: {
+    title: "Problèmes Courants avec la Fibre Optique",
+    description: "Les installations fibre optique peuvent rencontrer diverses difficultés techniques qui nécessitent l'intervention d'un spécialiste qualifié. Identifier ces problèmes rapidement permet d'éviter des pannes prolongées et des coûts supplémentaires.",
+    problems: [
+      "Perte de signal ou débit réduit",
+      "Câbles fibre endommagés ou cassés",
+      "Connecteurs défaillants ou mal soudés",
+      "Installation non conforme aux normes",
+      "Équipements obsolètes ou incompatibles",
+      "Absence de documentation technique"
+    ]
+  },
+  
+  diagnosticSection: {
+    title: "Notre Méthode de Diagnostic Fibre",
+    description: "RAFCOM utilise des équipements de mesure professionnels pour diagnostiquer précisément les problèmes de votre installation fibre optique. Notre approche méthodique garantit une identification rapide et fiable des dysfonctionnements.",
+    steps: [
+      "Analyse visuelle de l'installation existante et des équipements",
+      "Tests de continuité et mesures de réflectométrie (OTDR)",
+      "Vérification de la qualité des connecteurs et soudures",
+      "Contrôle de la conformité aux normes télécommunications",
+      "Évaluation des performances et du débit réel",
+      "Rapport détaillé avec recommandations techniques"
+    ]
+  },
+  
+  solutionSection: {
+    title: "Nos Solutions Techniques Fibre Optique",
+    description: "Fort de notre expertise en télécommunications, RAFCOM propose des solutions complètes et durables pour tous vos besoins en fibre optique. Chaque intervention est adaptée à votre configuration spécifique.",
+    solutions: [
+      "Installation fibre optique clé en main",
+      "Réparation et remplacement de câbles",
+      "Soudure de précision et connectique",
+      "Mise aux normes des installations",
+      "Optimisation des performances réseau",
+      "Maintenance préventive et curative"
+    ]
+  },
+  
   // Sous-prestations
   subServices: [
     {

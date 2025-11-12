@@ -18,7 +18,47 @@ const fourreauBoucheConfig = {
   location: "Paris et Île-de-France",
   
   // Description détaillée
-  mainDescription: "RAFCOM intervient pour le débouchage professionnel de fourreaux et gaines télécommunications obstrués. Nos techniques spécialisées permettent de libérer efficacement les conduits pour permettre le passage de nouveaux câbles fibre optique. Nous utilisons des équipements professionnels adaptés à chaque situation : aiguillage, soufflage, hydrocurage. Notre expertise nous permet de résoudre les obstructions les plus complexes avec un devis gratuit et personnalisé.",
+  mainDescription: "RAFCOM est spécialisé dans le débouchage de fourreaux télécommunications en Île-de-France. Nos techniciens expérimentés utilisent des techniques professionnelles pour libérer les conduits obstrués et permettre le passage de la fibre optique. Nous intervenons rapidement sur tous types de blocages : terre, gravats, racines, anciens câbles. Notre expertise nous permet de résoudre les situations les plus complexes avec un devis gratuit et une intervention rapide.",
+  
+  // Structure SEO optimisée
+  problemSection: {
+    title: "Problèmes de Fourreaux Bouchés",
+    description: "Les fourreaux télécommunications peuvent se boucher pour diverses raisons, empêchant le passage des câbles fibre optique. Ces obstructions nécessitent une intervention technique spécialisée pour éviter d'endommager les infrastructures existantes.",
+    problems: [
+      "Fourreaux complètement obstrués par la terre",
+      "Présence de gravats et débris de chantier",
+      "Racines d'arbres qui ont envahi les conduits",
+      "Anciens câbles abandonnés qui bloquent",
+      "Eau stagnante et boue dans les fourreaux",
+      "Déformation ou écrasement des conduits"
+    ]
+  },
+  
+  diagnosticSection: {
+    title: "Diagnostic Précis des Obstructions",
+    description: "Notre équipe utilise des équipements de détection avancés pour localiser et identifier précisément la nature des obstructions dans vos fourreaux télécommunications.",
+    steps: [
+      "Inspection visuelle des regards et chambres de tirage",
+      "Sondage mécanique pour localiser les obstructions",
+      "Utilisation de caméras d'inspection si nécessaire",
+      "Évaluation de l'état général du fourreau",
+      "Identification de la nature du blocage (terre, racines, câbles)",
+      "Définition de la méthode de débouchage adaptée"
+    ]
+  },
+  
+  solutionSection: {
+    title: "Techniques de Débouchage Professionnel",
+    description: "RAFCOM maîtrise toutes les techniques de débouchage de fourreaux, des méthodes douces aux interventions plus complexes, toujours dans le respect des infrastructures existantes.",
+    solutions: [
+      "Débouchage par aspiration haute pression",
+      "Utilisation de furets et tire-fils spécialisés",
+      "Nettoyage par jet d'eau haute pression",
+      "Extraction d'anciens câbles et débris",
+      "Réparation de fourreaux endommagés",
+      "Contrôle final et test de passage"
+    ]
+  },
   
   // Sous-prestations
   subServices: [
