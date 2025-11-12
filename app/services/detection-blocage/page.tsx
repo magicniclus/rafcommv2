@@ -20,6 +20,46 @@ const detectionBlocageConfig = {
   // Description détaillée
   mainDescription: "RAFCOM propose des services de détection et localisation précise des points de blocage dans les réseaux de télécommunications. Grâce à nos équipements de diagnostic avancés, nous identifions rapidement et avec précision les obstructions qui empêchent le passage des câbles fibre optique. Notre expertise technique nous permet d'analyser tous types de réseaux et de proposer les solutions les plus adaptées avec un devis gratuit et personnalisé.",
   
+  // Structure SEO optimisée
+  problemSection: {
+    title: "Problèmes de Points de Blocage dans les Réseaux",
+    description: "Les points de blocage dans les infrastructures télécommunications peuvent paralyser complètement les installations fibre optique. Une détection rapide et précise est essentielle pour éviter des retards coûteux et des interventions destructives.",
+    problems: [
+      "Impossibilité de faire passer les câbles fibre",
+      "Localisation imprécise des obstructions",
+      "Perte de temps sur les chantiers",
+      "Risque d'endommager les infrastructures",
+      "Coûts supplémentaires d'intervention",
+      "Retards dans les projets de raccordement"
+    ]
+  },
+  
+  diagnosticSection: {
+    title: "Méthodes de Détection Professionnelles",
+    description: "RAFCOM utilise des technologies de pointe pour localiser avec précision les points de blocage. Notre approche méthodique combine plusieurs techniques de détection pour un diagnostic fiable et complet.",
+    steps: [
+      "Analyse préliminaire des plans et de la documentation existante",
+      "Inspection visuelle des points d'accès et regards",
+      "Utilisation de sondes de détection et d'aiguilles de localisation",
+      "Déploiement de caméras d'inspection haute définition",
+      "Mesures de distance et cartographie précise des obstructions",
+      "Rapport détaillé avec localisation GPS et recommandations"
+    ]
+  },
+  
+  solutionSection: {
+    title: "Solutions de Localisation et Résolution",
+    description: "Une fois le point de blocage identifié, RAFCOM propose des solutions adaptées pour résoudre le problème rapidement et efficacement, en minimisant les impacts sur l'infrastructure existante.",
+    solutions: [
+      "Localisation GPS précise des obstructions",
+      "Cartographie complète des réseaux souterrains",
+      "Techniques de contournement des blocages",
+      "Coordination avec les équipes de débouchage",
+      "Solutions alternatives de cheminement",
+      "Documentation technique pour interventions futures"
+    ]
+  },
+  
   // Sous-prestations
   subServices: [
     {

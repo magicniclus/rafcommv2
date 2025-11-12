@@ -18,7 +18,47 @@ const urgenceFibreConfig = {
   location: "Paris et Île-de-France",
   
   // Description détaillée
-  mainDescription: "RAFCOM propose un service d'urgence fibre optique disponible 24h/24 et 7j/7 en Île-de-France. Notre équipe d'intervention rapide se déplace immédiatement pour résoudre vos pannes de fibre optique, problèmes de connexion et dysfonctionnements critiques. Nous comprenons l'importance de la continuité de service et intervenons en urgence pour rétablir vos connexions dans les plus brefs délais avec un devis gratuit et une tarification transparente.",
+  mainDescription: "RAFCOM propose un service d'urgence fibre optique 24h/24 en Île-de-France. Nos équipes d'intervention rapide sont disponibles pour résoudre tous vos problèmes de fibre optique : pannes, coupures, dysfonctionnements. Nous intervenons rapidement avec les équipements nécessaires pour rétablir votre connexion fibre dans les plus brefs délais. Service réactif avec devis gratuit et intervention d'urgence garantie.",
+  
+  // Structure SEO optimisée
+  problemSection: {
+    title: "Urgences Fibre Optique Critiques",
+    description: "Les pannes de fibre optique peuvent paralyser complètement l'activité d'une entreprise ou perturber gravement la vie quotidienne. Ces situations d'urgence nécessitent une intervention immédiate et professionnelle pour minimiser les impacts.",
+    problems: [
+      "Coupure totale de la connexion fibre",
+      "Perte de débit et performances dégradées",
+      "Câbles fibre endommagés par des travaux",
+      "Dysfonctionnements d'équipements critiques",
+      "Pannes en dehors des heures ouvrables",
+      "Impact sur l'activité professionnelle"
+    ]
+  },
+  
+  diagnosticSection: {
+    title: "Diagnostic d'Urgence Rapide",
+    description: "En situation d'urgence, RAFCOM déploie immédiatement une équipe de diagnostic pour identifier rapidement la cause de la panne et définir la solution d'intervention la plus efficace.",
+    steps: [
+      "Prise d'appel d'urgence et évaluation de la criticité",
+      "Déploiement immédiat d'une équipe d'intervention",
+      "Diagnostic rapide sur site avec équipements portables",
+      "Localisation précise de la panne ou du dysfonctionnement",
+      "Évaluation des solutions de dépannage temporaire",
+      "Planification de l'intervention définitive si nécessaire"
+    ]
+  },
+  
+  solutionSection: {
+    title: "Solutions d'Intervention d'Urgence",
+    description: "RAFCOM dispose des équipements et de l'expertise nécessaires pour intervenir rapidement sur tous types d'urgences fibre optique. Nos solutions visent à rétablir le service dans les meilleurs délais.",
+    solutions: [
+      "Intervention d'urgence 24h/24 et 7j/7",
+      "Réparations temporaires pour continuité de service",
+      "Remplacement d'équipements défaillants",
+      "Contournements et solutions alternatives",
+      "Réparations définitives avec garantie",
+      "Suivi post-intervention et prévention"
+    ]
+  },
   
   // Sous-prestations
   subServices: [

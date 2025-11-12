@@ -18,7 +18,47 @@ const raccordementComplexeConfig = {
   location: "Paris et Île-de-France",
   
   // Description détaillée
-  mainDescription: "RAFCOM est spécialisé dans les raccordements fibre optique complexes et techniques. Nous intervenons sur les installations les plus difficiles nécessitant une expertise particulière : raccordements en hauteur, passages techniques complexes, environnements contraints. Notre équipe maîtrise toutes les techniques avancées de raccordement fibre optique pour réaliser vos projets les plus exigeants avec un devis gratuit et personnalisé.",
+  mainDescription: "RAFCOM est spécialisé dans les raccordements fibre optique complexes en Île-de-France. Nos techniciens expérimentés maîtrisent les techniques avancées pour réaliser des raccordements dans les configurations les plus difficiles. Que ce soit pour des installations industrielles, des immeubles anciens ou des environnements techniques contraignants, nous apportons des solutions sur mesure avec un devis gratuit et une expertise reconnue.",
+  
+  // Structure SEO optimisée
+  problemSection: {
+    title: "Défis des Raccordements Fibre Complexes",
+    description: "Les raccordements fibre optique complexes présentent des défis techniques majeurs qui nécessitent une expertise spécialisée. Ces situations particulières peuvent compromettre la qualité de l'installation si elles ne sont pas traitées correctement.",
+    problems: [
+      "Configurations architecturales contraignantes",
+      "Distances importantes entre points de raccordement",
+      "Environnements industriels avec perturbations",
+      "Immeubles anciens sans infrastructure adaptée",
+      "Contraintes d'accès et de sécurité",
+      "Exigences de performance très élevées"
+    ]
+  },
+  
+  diagnosticSection: {
+    title: "Analyse Technique Approfondie",
+    description: "Avant tout raccordement complexe, RAFCOM effectue une analyse technique complète pour identifier les contraintes et définir la meilleure approche. Cette phase de diagnostic est cruciale pour la réussite du projet.",
+    steps: [
+      "Étude de faisabilité et analyse des contraintes techniques",
+      "Mesures de distance et évaluation des pertes optiques",
+      "Identification des points de passage et cheminements",
+      "Analyse de l'environnement et des perturbations potentielles",
+      "Définition des équipements et techniques adaptés",
+      "Planification détaillée de l'intervention avec timeline"
+    ]
+  },
+  
+  solutionSection: {
+    title: "Solutions Techniques Avancées",
+    description: "RAFCOM dispose de l'expertise et des équipements nécessaires pour réaliser les raccordements fibre les plus complexes. Nos solutions techniques garantissent des performances optimales même dans les environnements les plus contraignants.",
+    solutions: [
+      "Soudures de précision avec équipements professionnels",
+      "Techniques de raccordement longue distance",
+      "Solutions de protection contre les perturbations",
+      "Adaptations pour environnements spécifiques",
+      "Tests et certifications de performance",
+      "Documentation technique complète et garanties"
+    ]
+  },
   
   // Sous-prestations
   subServices: [
