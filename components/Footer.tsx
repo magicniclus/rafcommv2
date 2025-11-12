@@ -20,25 +20,23 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Maçonnerie Générale', href: '/services/maconnerie-generale' },
-    { name: 'Joints de Pierres', href: '/services/joints-pierres' },
-    { name: 'Ouvertures & Extensions', href: '/services/ouvertures-extensions' },
-    { name: 'Enduits de Façade', href: '/services/enduits-facade' },
-    { name: 'Assainissement', href: '/services/assainissement' },
-    { name: 'Terrassement', href: '/services/terrassement' },
+    { name: 'Travaux Fibre', href: '/services/travaux-fibre' },
+    { name: 'Fourreau Bouché', href: '/services/fourreau-bouche' },
+    { name: 'Détection de Point de Blocage', href: '/services/detection-blocage' },
+    { name: 'Raccordement Fibre Complexe', href: '/services/raccordement-complexe' },
+    { name: 'Urgence Fibre', href: '/services/urgence-fibre' },
   ];
 
   const sectorsLinks = [
-    { name: 'Saint-Malo', href: '/secteur/maconnerie-saint-malo' },
-    { name: 'Dinard', href: '/secteur/maconnerie-dinard' },
-    { name: 'Dinan', href: '/secteur/maconnerie-dinan' },
-    { name: 'Cancale', href: '/secteur/maconnerie-cancale' },
-    { name: 'Dol-de-Bretagne', href: '/secteur/maconnerie-dol-de-bretagne' },
-    { name: 'Saint-Briac-sur-Mer', href: '/secteur/maconnerie-saint-briac-sur-mer' },
-    { name: 'Saint-Lunaire', href: '/secteur/maconnerie-saint-lunaire' },
-    { name: 'Combourg', href: '/secteur/maconnerie-combourg' },
-    { name: 'Lancieux', href: '/secteur/maconnerie-lancieux' },
-    { name: 'Saint-Coulomb', href: '/secteur/maconnerie-saint-coulomb' },
+    { name: 'Paris 15ème', href: '/secteur/fibre-paris-15' },
+    { name: 'Paris 14ème', href: '/secteur/fibre-paris-14' },
+    { name: 'Paris 16ème', href: '/secteur/fibre-paris-16' },
+    { name: 'Paris 7ème', href: '/secteur/fibre-paris-7' },
+    { name: 'Issy-les-Moulineaux', href: '/secteur/fibre-issy-les-moulineaux' },
+    { name: 'Boulogne-Billancourt', href: '/secteur/fibre-boulogne-billancourt' },
+    { name: 'Vanves', href: '/secteur/fibre-vanves' },
+    { name: 'Malakoff', href: '/secteur/fibre-malakoff' },
+    { name: 'Montrouge', href: '/secteur/fibre-montrouge' },
     { name: 'Voir tous nos secteurs', href: '/secteur' },
   ];
 
@@ -71,17 +69,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  ADBETTON
+                  RAFCOM
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Spécialiste en maçonnerie générale (gros second œuvre) et pose de menuiserie. Garantie décennale.
+                Spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes et urgences fibre en Île-de-France.
               </p>
               <a 
-                href="tel:0648812578" 
+                href="tel:0783490136" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                06 48 81 25 78
+                07 83 49 01 36
               </a>
             </motion.div>
 
@@ -166,11 +164,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0648812578"
+                  href="tel:0783490136"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>06 48 81 25 78</span>
+                  <span>07 83 49 01 36</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -191,7 +189,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} Adbetton. Tous droits réservés.
+              © {currentYear} RAFCOM. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

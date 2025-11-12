@@ -21,45 +21,32 @@ export default function Navigation() {
   const [showSectorsDropdown, setShowSectorsDropdown] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "06 48 81 25 78";
+  const phoneNumber = "07 83 49 01 36";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Maçonnerie Générale', href: '/services/maconnerie-generale' },
-    { name: 'Joints de Pierres', href: '/services/joints-pierres' },
-    { name: 'Ouvertures & Extensions', href: '/services/ouvertures-extensions' },
-    { name: 'Enduits de Façade', href: '/services/enduits-facade' },
-    { name: 'Assainissement', href: '/services/assainissement' },
-    { name: 'Terrassement', href: '/services/terrassement' },
+    { name: 'Travaux Fibre', href: '/services/travaux-fibre' },
+    { name: 'Fourreau Bouché', href: '/services/fourreau-bouche' },
+    { name: 'Détection de Point de Blocage', href: '/services/detection-blocage' },
+    { name: 'Raccordement Fibre Complexe', href: '/services/raccordement-complexe' },
+    { name: 'Urgence Fibre', href: '/services/urgence-fibre' },
   ];
 
   // Liste des secteurs pour le dropdown
   const sectorsLinks = [
-    { name: 'Saint-Malo', href: '/secteur/maconnerie-saint-malo' },
-    { name: 'Saint-Suliac', href: '/secteur/maconnerie-saint-suliac' },
-    { name: 'Cancale', href: '/secteur/maconnerie-cancale' },
-    { name: 'Saint-Briac-sur-Mer', href: '/secteur/maconnerie-saint-briac-sur-mer' },
-    { name: 'Saint-Lunaire', href: '/secteur/maconnerie-saint-lunaire' },
-    { name: 'Dinard', href: '/secteur/maconnerie-dinard' },
-    { name: 'La Richardais', href: '/secteur/maconnerie-la-richardais' },
-    { name: 'Pleurtuit', href: '/secteur/maconnerie-pleurtuit' },
-    { name: 'Saint-Coulomb', href: '/secteur/maconnerie-saint-coulomb' },
-    { name: 'Dinan', href: '/secteur/maconnerie-dinan' },
-    { name: 'Dol-de-Bretagne', href: '/secteur/maconnerie-dol-de-bretagne' },
-    { name: 'Le Mont-Dol', href: '/secteur/maconnerie-le-mont-dol' },
-    { name: 'Combourg', href: '/secteur/maconnerie-combourg' },
-    { name: 'Saint-Benoît-des-Ondes', href: '/secteur/maconnerie-saint-benoit-des-ondes' },
-    { name: 'Lancieux', href: '/secteur/maconnerie-lancieux' },
-    { name: 'Plouer-sur-Rance', href: '/secteur/maconnerie-plouer-sur-rance' },
-    { name: 'Miniac-Morvan', href: '/secteur/maconnerie-miniac-morvan' },
-    { name: 'Plerguer', href: '/secteur/maconnerie-plerguer' },
-    { name: 'Châteauneuf-d\'Ille-et-Vilaine', href: '/secteur/maconnerie-chateauneuf-ille-et-vilaine' },
-    { name: 'La Gouesnière', href: '/secteur/maconnerie-la-gouesniere' },
-    { name: 'Baguer-Morvan', href: '/secteur/maconnerie-baguer-morvan' },
-    { name: 'La Fresnais', href: '/secteur/maconnerie-la-fresnais' },
+    { name: 'Paris 15ème', href: '/secteur/fibre-paris-15' },
+    { name: 'Paris 14ème', href: '/secteur/fibre-paris-14' },
+    { name: 'Paris 16ème', href: '/secteur/fibre-paris-16' },
+    { name: 'Paris 7ème', href: '/secteur/fibre-paris-7' },
+    { name: 'Paris 6ème', href: '/secteur/fibre-paris-6' },
+    { name: 'Issy-les-Moulineaux', href: '/secteur/fibre-issy-les-moulineaux' },
+    { name: 'Boulogne-Billancourt', href: '/secteur/fibre-boulogne-billancourt' },
+    { name: 'Vanves', href: '/secteur/fibre-vanves' },
+    { name: 'Malakoff', href: '/secteur/fibre-malakoff' },
+    { name: 'Montrouge', href: '/secteur/fibre-montrouge' },
     { name: 'Voir tous nos secteurs', href: '/secteur' },
   ];
 
@@ -138,8 +125,8 @@ export default function Navigation() {
                 />
               </motion.div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-gray-900">ADBETTON</span>
-                <span className="text-xs text-gray-600 font-medium">maçonnerie familiale</span>
+                <span className="text-xl font-bold text-gray-900">RAFCOM</span>
+                <span className="text-xs text-gray-600 font-medium">spécialiste fibre optique</span>
               </div>
             </Link>
           </motion.div>
@@ -367,10 +354,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    ADBETTON
+                    RAFCOM
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    maçonnerie familiale
+                    spécialiste fibre optique
                   </span>
                 </div>
               </div>

@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "ADBETTON",
-    "legalName": "Adbetton Maçonnerie - Savoir-faire familial depuis 2 générations",
-    "address": "8 avenue de moka, 35400 Saint-Malo",
-    "phone": "06 48 81 25 78",
-    "email": "adbetton32@gmail.com",
-    "siret": "Entrepreneur du bâtiment avec garantie décennale",
-    "ceo": "Morgan Bourges"
+    "name": "RAFCOM",
+    "legalName": "RAFCOM - Spécialiste des travaux fibre optique",
+    "address": "Paris (75015)",
+    "phone": "07 83 49 01 36",
+    "email": "contact@rafcom.net",
+    "siret": "Entrepreneur du bâtiment spécialisé fibre optique",
+    "ceo": "Rafik Hamel"
   },
   "hero": {
-    "title": "Adbetton Maçonnerie - Savoir-faire familial depuis 2 générations",
-    "subtitle": "Maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement en Bretagne et Normandie. Un travail soigné, durable et de qualité dans un rayon de 50 km autour de Saint-Malo.",
+    "title": "RAFCOM - Spécialiste des travaux fibre optique",
+    "subtitle": "Travaux fibre, débouchage de fourreaux, détection de points de blocage, raccordements fibre complexes et interventions d'urgence fibre en Île-de-France. Un service professionnel et réactif pour tous vos besoins en télécommunications.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
@@ -20,21 +20,21 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Savoir-faire familial transmis de père en fils",
-        "subtitle": "Plus de 10 ans d'expérience sur le terrain",
-        "content": "Notre entreprise, Adbetton Maçonnerie, est née d'une véritable passion transmise de père en fils. Forts d'un savoir-faire familial et d'une expérience solide sur le terrain, nous mettons notre expertise au service de vos projets, qu'ils soient petits ou grands. Notre mission : apporter un travail soigné, durable et de qualité, dans le respect des délais et des normes.",
+        "title": "Spécialiste des travaux fibre optique",
+        "subtitle": "Expertise technique et réactivité garanties",
+        "content": "RAFCOM est votre partenaire de confiance pour tous vos travaux de fibre optique. Nous intervenons rapidement sur les débouchages de fourreaux, la détection de points de blocage, les raccordements fibre complexes et les urgences fibre. Notre expertise technique et notre réactivité nous permettent de résoudre efficacement tous vos problèmes de télécommunications.",
         "image": "/maison-1.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
-        "buttonText": "Voir nos réalisations",
-        "buttonHref": "#realisations",
+        "buttonText": "Voir nos services",
+        "buttonHref": "#services",
         "reversed": false
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Maçonnerie traditionnelle et moderne",
-        "subtitle": "Spécialisation en rénovation de pierre et joints à l'ancienne",
-        "content": "Ce qui nous distingue, c'est notre amour du métier, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que la maçonnerie traditionnelle peut rimer avec modernité et précision. Nous maîtrisons parfaitement les normes de sécurité et de construction en vigueur.",
+        "title": "Solutions fibre optique complètes",
+        "subtitle": "Intervention rapide et solutions techniques adaptées",
+        "content": "Ce qui nous distingue, c'est notre expertise technique, notre réactivité et notre capacité à résoudre les problèmes les plus complexes. Chaque intervention est pour nous une nouvelle occasion de démontrer notre savoir-faire en matière de télécommunications. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur des télécoms.",
         "image": "/maison-2.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -45,8 +45,8 @@
     ]
   },
   "gallery": {
-    "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos chantiers de maçonnerie générale et joints de pierres dans un rayon de 50 km autour de Saint-Malo",
+    "title": "Nos Interventions",
+    "subtitle": "Découvrez nos interventions de travaux fibre, débouchage de fourreaux et raccordements complexes en Île-de-France",
     "initialDisplayCount": 4,
     "images": [
       {
@@ -101,14 +101,14 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Parlons de votre projet de maçonnerie générale, joints de pierres, extensions ou assainissement autour de Saint-Malo"
+    "subtitle": "Parlons de vos besoins en travaux fibre, débouchage de fourreaux, détection de blocages ou urgences fibre en Île-de-France"
   },
   "team": {
     "members": [
       {
-        "name": "Morgan Bourges",
-        "position": "Fondateur & Artisan Maçon",
-        "description": "Issu d'une famille de maçons, j'ai grandi sur les chantiers, entouré par la passion du bâtiment et le respect du travail bien fait. Après plusieurs années d'expérience dans différents domaines du gros œuvre et de la rénovation, j'ai créé Adbetton en 2020 pour faire perdurer le savoir-faire familial tout en y apportant ma touche personnelle : la qualité, la fiabilité et la proximité avec mes clients.",
+        "name": "Rafik Hamel",
+        "position": "Fondateur & Spécialiste Fibre Optique",
+        "description": "Spécialisé dans les travaux de fibre optique, j'ai développé une expertise technique pointue dans le débouchage de fourreaux, la détection de points de blocage et les raccordements complexes. Mon expérience me permet d'intervenir rapidement et efficacement sur tous types d'urgences fibre. RAFCOM, c'est la garantie d'un service professionnel et réactif pour tous vos besoins en télécommunications.",
         "photo": ""
       }
     ]

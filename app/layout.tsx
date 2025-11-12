@@ -5,32 +5,32 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Bati France - Spécialistes en Rénovation à Paris | Devis Gratuit",
-  description: "Bati France, spécialistes dans tous les corps d'état : peinture, ravalement, électricité, plomberie, rénovation globale. Devis gratuit à Paris 75020. Intervention rapide et professionnelle.",
-  keywords: "rénovation Paris, peinture ravalement Paris, électricité plomberie Paris, rénovation globale Paris, entrepreneur bâtiment Paris, travaux rénovation 75020, Bati France, construction Paris, artisan rénovation, devis gratuit",
-  authors: [{ name: "Bati France" }],
-  creator: "Bati France",
-  publisher: "Bati France",
+  title: "RAFCOM - Spécialiste Travaux Fibre Optique Paris | Urgence Fibre 24h/24",
+  description: "RAFCOM, spécialiste des travaux fibre optique en Île-de-France : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre. Intervention rapide Paris 75015.",
+  keywords: "travaux fibre optique Paris, fourreau bouché Paris, détection point blocage fibre, raccordement fibre complexe, urgence fibre Paris, débouchage fourreaux télécom, RAFCOM, fibre optique 75015, entrepreneur fibre optique",
+  authors: [{ name: "RAFCOM" }],
+  creator: "RAFCOM",
+  publisher: "RAFCOM",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://batifrance.fr"),
+  metadataBase: new URL("https://rafcom.net"),
   alternates: {
-    canonical: "https://batifrance.fr",
+    canonical: "https://rafcom.net",
   },
   openGraph: {
-    title: "Bati France - Spécialistes en Rénovation à Paris",
-    description: "Bati France, spécialistes dans tous les corps d'état : peinture, ravalement, électricité, plomberie, rénovation globale. Devis gratuit à Paris.",
-    url: "https://batifrance.fr",
-    siteName: "Bati France - Spécialistes en Rénovation",
+    title: "RAFCOM - Spécialiste Travaux Fibre Optique Paris",
+    description: "RAFCOM, spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre en Île-de-France.",
+    url: "https://rafcom.net",
+    siteName: "RAFCOM - Spécialiste Fibre Optique",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Bati France - Spécialistes en Rénovation à Paris",
+        alt: "RAFCOM - Spécialiste Travaux Fibre Optique Paris",
       },
     ],
     locale: "fr_FR",
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bati France - Spécialistes en Rénovation",
-    description: "Spécialistes dans tous les corps d'état : peinture, ravalement, électricité, plomberie, rénovation globale à Paris.",
+    title: "RAFCOM - Spécialiste Fibre Optique",
+    description: "Spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre en Île-de-France.",
     images: ["/og-image.jpg"],
   },
   robots: {

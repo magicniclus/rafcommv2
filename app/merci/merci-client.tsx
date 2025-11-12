@@ -56,7 +56,7 @@ export default function MerciClient() {
               Nous avons bien reçu votre demande
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Notre équipe Adbetton Maçonnerie va étudier votre projet et vous recontacter 
+              Notre équipe RAFCOM va étudier votre demande de travaux fibre optique et vous recontacter 
               dans les plus brefs délais pour établir un devis personnalisé et gratuit.
             </p>
           </motion.div>
@@ -98,9 +98,9 @@ export default function MerciClient() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.3 }}
           >
-            <h3 className="text-lg font-semibold text-orange-900 mb-3">Besoin urgent ?</h3>
+            <h3 className="text-lg font-semibold text-orange-900 mb-3">Urgence fibre ?</h3>
             <p className="text-orange-800 mb-4">
-              Pour les demandes urgentes, n'hésitez pas à nous contacter directement :
+              Pour les interventions d'urgence fibre optique, contactez-nous directement :
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button
@@ -108,9 +108,9 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="tel:0648812578" className="flex items-center justify-center">
+                <a href="tel:0783490136" className="flex items-center justify-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  06 48 81 25 78
+                  07 83 49 01 36
                 </a>
               </Button>
               <Button
@@ -118,7 +118,7 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="mailto:adbetton32@gmail.com" className="flex items-center justify-center">
+                <a href="mailto:contact@rafcom.net" className="flex items-center justify-center">
                   <Mail className="h-4 w-4 mr-2" />
                   Email
                 </a>
@@ -148,8 +148,8 @@ export default function MerciClient() {
               className="flex-1"
               asChild
             >
-              <Link href="/services/maconnerie-generale">
-                Découvrir nos services
+              <Link href="/services/travaux-fibre">
+                Découvrir nos services fibre
               </Link>
             </Button>
           </motion.div>
