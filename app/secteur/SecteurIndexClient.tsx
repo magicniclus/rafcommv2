@@ -5,15 +5,18 @@ import { motion } from 'framer-motion';
 import { MapPin, ChevronRight, Star, Building2, Phone } from 'lucide-react';
 
 const sectors = [
+  { name: 'Paris (75)', slug: 'fibre-paris-75' },
   { name: 'Paris 15ème', slug: 'fibre-paris-15' },
   { name: 'Paris 14ème', slug: 'fibre-paris-14' },
-  { name: 'Paris 16ème', slug: 'fibre-paris-16' },
-  { name: 'Paris 7ème', slug: 'fibre-paris-7' },
-  { name: 'Paris 6ème', slug: 'fibre-paris-6' },
+  { name: 'Seine-Maritime (76)', slug: 'fibre-seine-maritime-76' },
+  { name: 'Seine-et-Marne (77)', slug: 'fibre-seine-et-marne-77' },
+  { name: 'Yvelines (78)', slug: 'fibre-yvelines-78' },
+  { name: 'Essonne (91)', slug: 'fibre-essonne-91' },
   { name: 'Hauts-de-Seine (92)', slug: 'fibre-hauts-de-seine-92' },
   { name: 'Seine-Saint-Denis (93)', slug: 'fibre-seine-saint-denis-93' },
   { name: 'Val-de-Marne (94)', slug: 'fibre-val-de-marne-94' },
   { name: 'Val-d\'Oise (95)', slug: 'fibre-val-d-oise-95' },
+  { name: 'Eure-et-Loir (28)', slug: 'fibre-eure-et-loir-28' },
   { name: 'Issy-les-Moulineaux', slug: 'fibre-issy-les-moulineaux' },
   { name: 'Boulogne-Billancourt', slug: 'fibre-boulogne-billancourt' },
   { name: 'Vanves', slug: 'fibre-vanves' },
@@ -51,7 +54,7 @@ export default function SecteurIndexClient() {
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Star className="h-5 w-5 text-yellow-300" />
-                <span className="text-sm font-medium">14 secteurs couverts</span>
+                <span className="text-sm font-medium">17 secteurs couverts</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Building2 className="h-5 w-5 text-green-300" />
