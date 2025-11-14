@@ -2,6 +2,7 @@
 
 import { AnimatePresence } from 'framer-motion';
 import Hero from '@/components/Hero';
+import GoogleReviewsBanner from '@/components/GoogleReviewsBanner';
 import ServicesSection from '@/components/ServicesSection';
 import AboutSection from '@/components/AboutSection';
 import TeamSection from '@/components/TeamSection';
@@ -126,7 +127,8 @@ export default function HomeClient() {
         subtitle="Parlons de vos besoins en travaux fibre, débouchage de fourreaux, détection de blocages ou urgences fibre en Île-de-France"
         contactInfo={contactInfo} 
       />
-
+      {/* Utilisation de la variable d'environnement pour le Place ID */}
+      <GoogleReviewsBanner placeId={process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "JuUub4TSV8uuF6tqj"} />
       {/* Exit Intent Popup */}
       <AnimatePresence>
         {showExitIntent && (
