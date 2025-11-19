@@ -1,6 +1,5 @@
 import sgMail from '@sendgrid/mail';
 import { FormData } from './firebase-service';
-import { config } from './config';
 
 // Configuration SendGrid
 const apiKey = process.env.SENDGRID_API_KEY;
@@ -88,22 +87,23 @@ service@trouver-mon-chantier.fr
 
     await sgMail.send(msg);
     console.log('Email de confirmation envoyé au client:', prospectData.email);
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('❌ Erreur envoi email client:');
-    console.error('Code:', error.code);
-    console.error('Message:', error.message);
+    const sendGridError = error as { code?: number; message?: string; response?: { body?: unknown } };
+    console.error('Code:', sendGridError.code);
+    console.error('Message:', sendGridError.message);
     
-    if (error.response && error.response.body) {
-      console.error('Détails SendGrid:', JSON.stringify(error.response.body, null, 2));
+    if (sendGridError.response && sendGridError.response.body) {
+      console.error('Détails SendGrid:', JSON.stringify(sendGridError.response.body, null, 2));
     }
     
     // Messages d'aide basés sur le code d'erreur
-    if (error.code === 401) {
+    if (sendGridError.code === 401) {
       console.error('💡 Erreur 401: Vérifiez votre clé API SendGrid');
       console.error('   - La clé doit commencer par "SG."');
       console.error('   - Vérifiez qu\'elle n\'est pas expirée');
       console.error('   - Créez une nouvelle clé avec les permissions "Mail Send"');
-    } else if (error.code === 403) {
+    } else if (sendGridError.code === 403) {
       console.error('💡 Erreur 403: Problème de permissions ou domaine');
       console.error('   - Vérifiez que service@trouver-mon-chantier.fr est vérifié dans SendGrid');
       console.error('   - Vérifiez les permissions de votre clé API');
@@ -121,8 +121,6 @@ export const sendProspectEmail = async (prospectData: EmailData): Promise<void> 
   }
   
   try {
-    const logoUrl = 'https://firebasestorage.googleapis.com/v0/b/trouvermonchantier.firebasestorage.app/o/logo.png?alt=media&token=becd91c3-7d25-4ac2-80a9-6a6c796bd021';
-    
     // Email HTML template - ALERTE URGENTE
     const htmlContent = `
     <!DOCTYPE html>
@@ -220,31 +218,29 @@ Notification automatique
 
     await sgMail.send(msg);
     console.log('Email de notification envoyé à:', msg.to);
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('❌ Erreur envoi email notification:');
-    console.error('Code:', error.code);
-    console.error('Message:', error.message);
+    const sendGridError = error as { code?: number; message?: string; response?: { body?: unknown } };
+    console.error('Code:', sendGridError.code);
+    console.error('Message:', sendGridError.message);
     
-    if (error.response && error.response.body) {
-      console.error('Détails SendGrid:', JSON.stringify(error.response.body, null, 2));
+    if (sendGridError.response && sendGridError.response.body) {
+      console.error('Détails SendGrid:', JSON.stringify(sendGridError.response.body, null, 2));
     }
     
     throw error;
   }
 };
 
-// Fonction pour envoyer les deux emails
+// Fonction pour envoyer seulement l'email de notification interne
 export const sendBothEmails = async (prospectData: EmailData): Promise<void> => {
   try {
-    // Envoyer l'email de notification interne
+    // Envoyer seulement l'email de notification interne
     await sendProspectEmail(prospectData);
     
-    // Envoyer l'email de confirmation au client
-    await sendClientConfirmationEmail(prospectData);
-    
-    console.log('Les deux emails ont été envoyés avec succès');
+    console.log('Email de notification envoyé avec succès');
   } catch (error) {
-    console.error('Erreur lors de l\'envoi des emails:', error);
+    console.error('Erreur lors de l\'envoi de l\'email de notification:', error);
     throw error;
   }
 };
