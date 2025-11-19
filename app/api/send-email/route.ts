@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { sendProspectEmail } from '@/lib/email-service';
+import { sendBothEmails } from '@/lib/email-service';
 
 export async function POST(request: NextRequest) {
   try {
@@ -13,8 +13,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Send email
-    await sendProspectEmail(body);
+    // Send both emails (client confirmation + internal notification)
+    await sendBothEmails(body);
     
     return NextResponse.json(
       { success: true, message: 'Email sent successfully' },
