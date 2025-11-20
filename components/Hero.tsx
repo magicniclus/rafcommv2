@@ -119,7 +119,7 @@ export default function Hero({
   };
 
   return (
-    <section className="relative min-h-screen md:min-h-[calc(100vh-80px)] md:h-[calc(100vh-81px)] flex items-center overflow-hidden md:py-0 py-40">
+    <section className="hero-container relative min-h-screen md:min-h-[calc(100vh-80px)] md:h-[calc(100vh-81px)] flex items-center overflow-hidden py-20 md:py-0 hero-padding-responsive">
       {/* Background */}
       <div 
         className="absolute inset-0 z-0"
@@ -138,10 +138,10 @@ export default function Hero({
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Left Section */}
           <motion.div
-            className="text-white space-y-8"
+            className="text-white space-y-6 md:space-y-8"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -149,7 +149,7 @@ export default function Hero({
 
             {/* Title */}
             <motion.h1 
-              className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
+              className="hero-title text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -159,7 +159,7 @@ export default function Hero({
 
             {/* Description */}
             <motion.p 
-              className="text-xl md:text-2xl text-gray-200 leading-relaxed"
+              className="hero-description text-lg sm:text-xl md:text-lg lg:text-xl xl:text-2xl text-gray-200 leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
@@ -205,13 +205,13 @@ export default function Hero({
           {/* Right Section - Form */}
           <motion.div
             id="contact-form"
-            className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-2xl"
+            className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-2xl max-w-lg md:max-w-none mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <motion.h2 
-              className="text-2xl font-bold text-gray-900 mb-6"
+              className="text-xl md:text-2xl font-bold text-gray-900 mb-4 md:mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
@@ -219,9 +219,9 @@ export default function Hero({
               Demandez votre devis gratuit
             </motion.h2>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-3 md:space-y-4">
               {/* Nom & Prénom */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                 <div>
                   <label htmlFor="nom" className="block text-sm font-medium text-gray-700 mb-1">
                     Nom *

@@ -128,7 +128,7 @@ export default function Navigation() {
           </motion.div>
 
           {/* Navigation au centre - Desktop */}
-          <div className="hidden md:block">
+          <div className="nav-desktop-1092">
             <NavigationMenu>
               <NavigationMenuList className="space-x-2">
                 {navigationLinks.map((link, index) => (
@@ -254,7 +254,7 @@ export default function Navigation() {
           </div>
 
           {/* Boutons à droite - Desktop */}
-          <div className="hidden md:flex items-center space-x-3">
+          <div className="nav-desktop-flex-1092 items-center space-x-3">
             {/* Bouton téléphone */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -303,7 +303,7 @@ export default function Navigation() {
           </div>
 
           {/* Menu mobile */}
-          <div className="md:hidden">
+          <div className="nav-mobile-1092">
             <Button 
               variant="ghost" 
               size="icon"
@@ -325,7 +325,7 @@ export default function Navigation() {
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="fixed inset-0 z-[100] bg-background md:hidden"
+          className="fixed inset-0 z-[100] bg-background nav-mobile-1092"
           initial={{ x: "100%" }}
           animate={{ x: 0 }}
           exit={{ x: "100%" }}
@@ -499,7 +499,7 @@ export default function Navigation() {
     <AnimatePresence>
       {showFloatingButton && (
         <motion.div
-          className="fixed bottom-4 right-4 md:hidden z-[60]"
+          className="fixed bottom-4 right-4 nav-mobile-1092 z-[60]"
           initial={{ opacity: 0, scale: 0, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0, y: 20 }}
@@ -532,7 +532,7 @@ export default function Navigation() {
     {/* Floating Call Button - Desktop (Expanded) */}
     <AnimatePresence>
       {showFloatingButton && (
-        <div className="hidden md:block fixed top-0 left-0 right-0 z-[60] pointer-events-none">
+        <div className="nav-desktop-1092 fixed top-0 left-0 right-0 z-[60] pointer-events-none">
           <div className="max-w-7xl mx-auto px-4 sm:p-6 lg:p-8 py-4 flex justify-end">
             <motion.div
               className="pointer-events-auto"
