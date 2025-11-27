@@ -67,14 +67,25 @@ export default function RootLayout({
         <link rel="icon" href="/icon.png" sizes="any" />
         <link rel="shortcut icon" href="/favicon.png" />
         
-        {/* Google tag (gtag.js) */}
+        {/* Google tag (gtag.js) - Google Ads */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17681257962" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-ads" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-17681257962');
+          `}
+        </Script>
+
+        {/* Google tag (gtag.js) - Google Analytics */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-4JQP3BJE5G" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4JQP3BJE5G');
           `}
         </Script>
 
