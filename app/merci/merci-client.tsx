@@ -4,8 +4,19 @@ import { motion } from 'framer-motion';
 import { Check, Home, Phone, Mail } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { useEffect } from 'react';
 
 export default function MerciClient() {
+  // Déclencher l'événement de conversion Google Analytics
+  useEffect(() => {
+    // Vérifier que gtag est disponible
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-17681257962/R5TgCI_W68cbEOqriu9B'
+      });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <motion.div
