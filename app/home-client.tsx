@@ -94,7 +94,7 @@ export default function HomeClient() {
       
       <Hero config={config.hero} />
        {/* Utilisation de la variable d'environnement pour le Place ID */}
-      <GoogleReviewsBanner placeId={process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "JuUub4TSV8uuF6tqj"} />
+      <GoogleReviewsBanner placeId={process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "ChIJ4UHYQun5IQ0RHMOUXfFEiDE"} />
       <LogoCarousel config={config.partners} speed={30} />
       <AboutSection
         id="expertise"
