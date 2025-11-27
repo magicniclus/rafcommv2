@@ -2,14 +2,13 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Check, Phone, Mail, MapPin, Star, ChevronRight, X } from 'lucide-react';
+import { Check, Phone, Mail, MapPin, Star, X } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase-service';
+import { submitFormToFirebase, validateFormData, FormData as CustomFormData } from '@/lib/firebase-service';
 import FormLoader from '@/components/FormLoader';
 import Breadcrumb from '@/components/Breadcrumb';
 import { useRouter } from 'next/navigation';
-import { Metadata } from 'next';
 
 interface ServicePageProps {
   // SEO et métadonnées
@@ -91,7 +90,7 @@ export default function ServicePage({
   contactInfo
 }: ServicePageProps) {
   const router = useRouter();
-  const [formData, setFormData] = useState<FormData>({
+  const [formData, setFormData] = useState<CustomFormData>({
     nom: '',
     prenom: '',
     email: '',

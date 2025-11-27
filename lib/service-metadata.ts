@@ -2,15 +2,12 @@ import { Metadata } from 'next';
 import { seoConfig } from './seo-config';
 
 // Fonction utilitaire pour générer les métadonnées SEO des pages services
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function generateServiceMetadata(
   serviceName: string,
   location: string,
   description: string,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   keywords: string[]
 ): Metadata {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const title = `${serviceName} ${location} - RAFCOM | Devis Gratuit`;
   const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez RAFCOM.`;
 

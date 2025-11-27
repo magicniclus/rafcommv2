@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Clock, Send, User, MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase-service';
+import { submitFormToFirebase, validateFormData, FormData as CustomFormData } from '@/lib/firebase-service';
 import FormLoader from '@/components/FormLoader';
 import { useRouter } from 'next/navigation';
 
