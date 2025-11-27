@@ -36,6 +36,7 @@ function generateSitemap() {
     { url: baseUrl, priority: 1, changeFrequency: 'weekly' },
     { url: `${baseUrl}/contact`, priority: 0.8, changeFrequency: 'monthly' },
     { url: `${baseUrl}/secteur`, priority: 0.9, changeFrequency: 'weekly' },
+    { url: `${baseUrl}/services`, priority: 0.9, changeFrequency: 'weekly' },
     { url: `${baseUrl}/mentions-legales`, priority: 0.3, changeFrequency: 'yearly' },
     { url: `${baseUrl}/cgv`, priority: 0.3, changeFrequency: 'yearly' },
     { url: `${baseUrl}/merci`, priority: 0.2, changeFrequency: 'yearly' }
