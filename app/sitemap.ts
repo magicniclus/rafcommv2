@@ -5,14 +5,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = seoConfig.siteUrl;
   const currentDate = new Date().toISOString();
 
-  // Secteurs géographiques
-  const sectors = [
-    'paris-20e', 'montreuil', 'vincennes', 'bagnolet', 'saint-mande',
-    'fontenay-sous-bois', 'pantin', 'les-lilas', 'nogent-sur-marne', 'rosny-sous-bois'
+  // Toutes les pages secteurs fibre existantes
+  const fiberSectors = [
+    'fibre-cergy',
+    'fibre-chelles', 
+    'fibre-essonne-91',
+    'fibre-eure-27',
+    'fibre-eure-et-loir-28',
+    'fibre-evry-courcouronnes',
+    'fibre-hauts-de-seine-92',
+    'fibre-loiret-45',
+    'fibre-meaux',
+    'fibre-nord-59',
+    'fibre-oise-60',
+    'fibre-paris-14',
+    'fibre-paris-15',
+    'fibre-paris-75',
+    'fibre-pas-de-calais-62',
+    'fibre-poissy',
+    'fibre-seine-et-marne-77',
+    'fibre-seine-maritime-76',
+    'fibre-seine-saint-denis-93',
+    'fibre-val-d-oise-95',
+    'fibre-val-de-marne-94',
+    'fibre-yvelines-78'
   ];
 
-  // Services spécialisés
-  const services = ['renovation', 'peinture', 'pose-parquet'];
+  // Tous les services existants
+  const services = [
+    'detection-blocage',
+    'fourreau-bouche',
+    'raccordement-complexe',
+    'travaux-fibre',
+    'urgence-fibre'
+  ];
 
   const sitemapEntries: MetadataRoute.Sitemap = [
     // Page d'accueil
@@ -36,49 +62,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
-    // Pages services existantes
-    {
-      url: `${baseUrl}/services/peinture-ravalement`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/services/renovation-globale`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/services/cloisons-seches`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/services/doublages`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/services/electricite-plomberie`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/services/faux-plafonds`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/services/finitions-platrerie`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
     // Pages légales
     {
       url: `${baseUrl}/mentions-legales`,
@@ -100,15 +83,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Ajouter toutes les pages secteurs spécialisées
-  sectors.forEach(sector => {
-    services.forEach(service => {
-      sitemapEntries.push({
-        url: `${baseUrl}/secteur/${service}-${sector}`,
-        lastModified: currentDate,
-        changeFrequency: 'monthly',
-        priority: 0.85, // Priorité élevée pour les pages géolocalisées
-      });
+  // Ajouter toutes les pages secteurs fibre
+  fiberSectors.forEach(sector => {
+    sitemapEntries.push({
+      url: `${baseUrl}/secteur/${sector}`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    });
+  });
+
+  // Ajouter toutes les pages services
+  services.forEach(service => {
+    sitemapEntries.push({
+      url: `${baseUrl}/services/${service}`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
     });
   });
 

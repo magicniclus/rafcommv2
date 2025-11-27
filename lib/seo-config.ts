@@ -32,7 +32,7 @@ export const seoConfig: SEOConfig = {
     "maintenance fibre optique"
   ],
   author: "RAFCOM",
-  siteUrl: "https://rafcom.net",
+  siteUrl: "https://rafcomm.fr",
   siteName: "RAFCOM - Spécialiste Travaux Fibre Optique",
   locale: "fr_FR",
   type: "website",
