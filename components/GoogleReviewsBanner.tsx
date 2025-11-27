@@ -76,7 +76,7 @@ const GoogleReviewsBanner = ({ placeId }: GoogleReviewsBannerProps) => {
 
   if (loading) {
     return (
-      <section className="bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
+      <section className=" py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-lg shadow-sm border p-6">
             <div className="animate-pulse">
@@ -105,7 +105,7 @@ const GoogleReviewsBanner = ({ placeId }: GoogleReviewsBannerProps) => {
 
   if (error) {
     return (
-      <section className="bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-lg shadow-sm border p-6">
             <div className="text-center text-gray-500">

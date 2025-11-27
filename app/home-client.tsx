@@ -93,6 +93,8 @@ export default function HomeClient() {
       />
       
       <Hero config={config.hero} />
+       {/* Utilisation de la variable d'environnement pour le Place ID */}
+      <GoogleReviewsBanner placeId={process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "JuUub4TSV8uuF6tqj"} />
       <LogoCarousel config={config.partners} speed={30} />
       <AboutSection
         id="expertise"
@@ -127,8 +129,6 @@ export default function HomeClient() {
         subtitle="Parlons de vos besoins en travaux fibre, débouchage de fourreaux, détection de blocages ou urgences fibre en Île-de-France"
         contactInfo={contactInfo} 
       />
-      {/* Utilisation de la variable d'environnement pour le Place ID */}
-      <GoogleReviewsBanner placeId={process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "JuUub4TSV8uuF6tqj"} />
       {/* Exit Intent Popup */}
       <AnimatePresence>
         {showExitIntent && (
