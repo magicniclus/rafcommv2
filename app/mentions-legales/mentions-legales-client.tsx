@@ -170,7 +170,7 @@ export default function MentionsLegalesClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Droit applicable et juridiction compétente</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Tout litige en relation avec l'utilisation du site www.rafcom.net est soumis au droit français. 
+                  Tout litige en relation avec l'utilisation du site www.rafcomm.fr est soumis au droit français. 
                   Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
                 </p>
               </div>

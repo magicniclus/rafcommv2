@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://rafcom.net"),
+  metadataBase: new URL("https://rafcomm.fr"),
   alternates: {
-    canonical: "https://rafcom.net",
+    canonical: "https://rafcomm.fr",
   },
   openGraph: {
     title: "RAFCOM - Spécialiste Travaux Fibre Optique Paris",
     description: "RAFCOM, spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre en Île-de-France.",
-    url: "https://rafcom.net",
+    url: "https://rafcomm.fr",
     siteName: "RAFCOM - Spécialiste Fibre Optique",
     images: [
       {

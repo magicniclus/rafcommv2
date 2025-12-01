@@ -34,7 +34,7 @@ export function generateSectorMetadata(
       },
     },
     alternates: {
-      canonical: `https://rafcom.net/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
+      canonical: `https://rafcomm.fr/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
     },
   };
 }
