@@ -53,7 +53,7 @@ export default function HomeClient() {
       title: "Raccordement Fibre Complexe",
       subtitle: "Solutions techniques avancées",
       content: "Raccordements fibre optique complexes et techniques. Expertise pour les installations difficiles nécessitant des compétences spécialisées.",
-      image: "/prestation-4.png",
+      image: "/prestation-4.jpeg",
       gradientFrom: "#e74c3c",
       gradientTo: "#f39c12",
       href: "/services/raccordement-complexe"
@@ -62,7 +62,7 @@ export default function HomeClient() {
       title: "Urgence Fibre",
       subtitle: "Intervention rapide 24h/24",
       content: "Interventions d'urgence fibre optique. Service réactif pour résoudre rapidement vos pannes et problèmes de connexion fibre.",
-      image: "/prestation-5.png",
+      image: "/prestation-5.jpeg",
       gradientFrom: "#3498db",
       gradientTo: "#2980b9",
       href: "/services/urgence-fibre"

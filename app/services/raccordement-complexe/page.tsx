@@ -9,7 +9,7 @@ const raccordementComplexeConfig = {
   
   // Contenu principal
   serviceName: "Raccordement Fibre Complexe",
-  heroImage: "/prestation-4.png",
+  heroImage: "/prestation-4.jpeg",
   heroTitle: "Raccordements Fibre Optique Complexes",
   heroSubtitle: "Expertise technique pour les raccordements fibre optique les plus complexes. Solutions avancées pour les installations difficiles nécessitant des compétences spécialisées.",
   
