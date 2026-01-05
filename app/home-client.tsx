@@ -44,7 +44,7 @@ export default function HomeClient() {
       title: "Détection de Point de Blocage",
       subtitle: "Localisation précise des obstructions",
       content: "Détection et localisation précise des points de blocage dans les réseaux de télécommunications. Diagnostic technique avancé pour identifier les problèmes.",
-      image: "/prestation-3.png",
+      image: "/prestation-3.jpeg",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
       href: "/services/detection-blocage"
