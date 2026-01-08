@@ -70,7 +70,7 @@ export default function HomeClient() {
   ];
 
   const contactInfo = {
-    address: "Paris (75015)",
+    address: "Île-de-France + rayon 70km",
     phone: "07 83 49 01 36",
     email: "contact@rafcomm.fr",
     mapEmbedUrl: "https://maps.google.com/maps?q=Paris+75015&t=&z=13&ie=UTF8&iwloc=&output=embed"
